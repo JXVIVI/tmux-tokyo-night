@@ -19,12 +19,12 @@ function generate_left_side_string() {
 	transparent=$(get_tmux_option "@theme_transparent_status_bar" "false")
 
 	if [ "$transparent" = "true" ]; then
-		local separator_end="#[bg=default]#{?client_prefix,#[fg=${PALLETE[red1]}],#[fg=${PALLETE[red1]}]}${left_separator:?}#[none]"
+		local separator_end="#[bg=default]#{?client_prefix,#[fg=${PALLETE[blue7]}],#[fg=${PALLETE[blue7]}]}${left_separator:?}#[none]"
 	else
-		local separator_end="#[bg=${PALLETE[bg_highlight]}]#{?client_prefix,#[fg=${PALLETE[red1]}],#[fg=${PALLETE[red1]}]}${left_separator:?}#[none]"
+		local separator_end="#[bg=${PALLETE[bg_highlight]}]#{?client_prefix,#[fg=${PALLETE[blue7]}],#[fg=${PALLETE[blue7]}]}${left_separator:?}#[none]"
 	fi
 
-	echo "#[fg=${PALLETE[white]},bold]#{?client_prefix,#[bg=${PALLETE[red1]}],#[bg=${PALLETE[red1]}]} ${session_icon} #S ${separator_end}"
+	echo "#[fg=${PALLETE[white]},bold]#{?client_prefix,#[bg=${PALLETE[blue7]}],#[bg=${PALLETE[blue7]}]} ${session_icon} #S ${separator_end}"
 }
 
 function generate_inactive_window_string() {

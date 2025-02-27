@@ -3,10 +3,14 @@
 #Tokyo Night Pallet
 declare -A PALLETE=(
 	[none]="NONE"
-	[bg]="#1a1b26"
-	[bg_dark]="#16161e"
-	[bg_highlight]="#292e42"
+	[bg]="#12131c"
+	# [bg]="#1a1b26"
+	[bg_dark]="#12131c"
+	# [bg_dark]="#16161e"
+	[bg_highlight]="#12131c"
+	# [bg_highlight]="#292e42"
 	[terminal_black]="#414868"
+	# [terminal_black]="#12131c"
 	[fg]="#c0caf5"
 	[fg_dark]="#a9b1d6"
 	[fg_gutter]="#3b4261"
