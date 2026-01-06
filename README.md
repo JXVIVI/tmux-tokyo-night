@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Tokyo Night Tmux Theme</h1>
   
-  <h4>A Tokyo Night tmux theme directly inspired from Tokyo Night vim theme</h4>
+  <h4>Forked from fabioluciano/tmux-tokyo-night with my own customisations - not really meant for anyone else to use.</h4>
     
   ---
     
